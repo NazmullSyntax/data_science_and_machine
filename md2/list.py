@@ -35,18 +35,25 @@ party_bags =[
     ["candy", "action figure", "lego set"]
 
 ]
-print(party_bags)
-print(party_bags[0])
-print(party_bags[1])
-print(party_bags[2])
-print(party_bags[0][0])
-print(party_bags[0][1])
-print(party_bags[0][2])
-print(party_bags[1][0])
-print(party_bags[1][1])
-print(party_bags[1][2])
-print(party_bags[2][0])
-print(party_bags[2][1])
-print(party_bags[2][2])
+# print(party_bags)
+# print(party_bags[0])
+# print(party_bags[1])
+# print(party_bags[2])
+# print(party_bags[0][0])
+# print(party_bags[0][1])
+# print(party_bags[0][2])
+# print(party_bags[1][0])
+# print(party_bags[1][1])
+# print(party_bags[1][2])
+# print(party_bags[2][0])
+# print(party_bags[2][1])
+# print(party_bags[2][2])
+for bag in party_bags:
+    print(bag)
+
+for item in party_bags:
+    if item == "candy":
+        print("Found candy in the party bag!")
+
 
 
