@@ -32,12 +32,21 @@
 # radius = float(input("Enter the radius of the circle: "))
 # area = calculate_area(radius)
 # print(f"The area of the circle with radius {radius} is: {area}")
-def cal (a, b):
-    sum = a + b
-    return sum
+def cal (a,sign, b):
+    if sign == "+":
+        result = a + b
+    elif sign == "-":
+        result = a - b
+    elif sign == "*":
+        result = a * b
+    elif sign == "/":
+        result = a / b
+
+    return result
 num1 = float(input("Enter first number: "))
+sign = input("Enter operator (+, -, *, /): ")
 num2 = float(input("Enter second number: "))
-result = cal(num1, num2)
+result = cal(num1,sign, num2)
 # print(f"The sum of {num1} and {num2} is: {result}")
 print(result)
 
