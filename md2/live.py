@@ -28,7 +28,7 @@ hours = float(input("Please enter the number of hours: "))
 minutes = hours * 60
 
 
-print("You entered:", hours, "hour(s)")
-print("That means:", minutes, "minute(s)")
+print(hours)
+print(minutes)
 
 print("Thank you for using this program!")
