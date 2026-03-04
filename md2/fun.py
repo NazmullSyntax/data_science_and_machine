@@ -12,12 +12,12 @@
 #     y = input("Enter your last_name: ")
 #     my_function(x, y)
 
-def my_function(first_name, last_name):
-    print(f"my name is :{first_name} {last_name}")
-x = input("Enter your first_name: ")
-y = input("Enter your last_name: ")
-my_function(x, y)
-def my_registration(name, email, password):
+# def my_function(first_name, last_name):
+#     print(f"my name is :{first_name} {last_name}")
+# x = input("Enter your first_name: ")
+# y = input("Enter your last_name: ")
+# my_function(x, y)
+def my_registration(name, email, password = ""):
     print(f"Name: {name}")
     print(f"Email: {email}")
     print(f"Password: {password}")
