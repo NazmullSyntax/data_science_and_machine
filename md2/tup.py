@@ -18,7 +18,7 @@ my_tuple = ('apple', 'banana', 'cherry')
 print(my_tuple)
 x = list(my_tuple)
 print(x)
-x[1] = 'kiwi'
+x.append('orange')
 my_tuple = tuple(x)
 print(my_tuple)
 
