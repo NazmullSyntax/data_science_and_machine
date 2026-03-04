@@ -11,5 +11,8 @@ print(love)
 
 love.update(love_2)
 print(love)
+x = love.pop()
+print(x)
+print(love)
 
 
